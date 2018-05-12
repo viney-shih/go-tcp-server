@@ -28,7 +28,7 @@ Sample code for building a toy TCP server with sending a query to an external we
 ## Usages:
 TCP server takes in any request text per line. The commands are listed below:
 
-* **weather,[city]** *(Temperature of the city, ex: weather,taipei)*
+* **weather[,city]** *(Temperature of the city, ex: weather,taipei)*
 * **time** *(Local time in the server)*
 * **status** *(statistics report in plain text)*
 * **quit** *(Quit the TCP connection)*
