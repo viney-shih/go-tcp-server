@@ -1,0 +1,16 @@
+package main
+
+import "time"
+
+const (
+    CONN_HOST = "localhost"
+    CONN_PORT = "3333"
+    CONN_TYPE = "tcp"
+    HTTP_HOST = "localhost"
+    HTTP_PORT = "8888"
+
+    WEATHER_URL = "http://api.apixu.com/v1/current.json"
+    WEATHER_API_KEY = ""
+    RATE = time.Second / 30
+    BURST_LIMIT = 30
+)
