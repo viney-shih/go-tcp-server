@@ -22,7 +22,11 @@ Sample code for building a toy TCP server with sending a query to an external we
 * To test your server, send some raw data to that port:
 
     ```
+    # TCP
     nc localhost 3333
+    
+    # HTTP
+    curl localhost:8888/status
     ```
 
 ## Usages:
